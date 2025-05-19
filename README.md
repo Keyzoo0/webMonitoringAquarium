@@ -13,7 +13,7 @@
 
 
 
-###Monitoring Aquarium adalah aplikasi dashboard berbasis web untuk memantau kondisi aquarium secara real-time seperti suhu air, kejernihan (turbidity), dan kapasitas tangki. Sistem ini terintegrasi dengan Firebase dan menampilkan lokasi perangkat di peta menggunakan Leaflet.
+### Monitoring Aquarium adalah aplikasi dashboard berbasis web untuk memantau kondisi aquarium secara real-time seperti suhu air, kejernihan (turbidity), dan kapasitas tangki. Sistem ini terintegrasi dengan Firebase dan menampilkan lokasi perangkat di peta menggunakan Leaflet.
 
 ---
 
