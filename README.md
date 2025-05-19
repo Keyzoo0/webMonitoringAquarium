@@ -1,12 +1,77 @@
-# React + Vite
+# 🌊 Monitoring Aquarium Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite + React](https://img.shields.io/badge/Vite-React-blueviolet)
+![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-orange)
 
-Currently, two official plugins are available:
+Monitoring Aquarium adalah aplikasi dashboard berbasis web untuk memantau kondisi lingkungan secara real-time seperti suhu air, kejernihan (turbidity), dan kapasitas tangki. Sistem ini terintegrasi dengan Firebase dan menampilkan lokasi perangkat di peta menggunakan Leaflet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Fitur Utama
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📈 **Dashboard Sensor Realtime** – Data grafik dari Firebase (suhu, turbidity, kapasitas)
+- 🗺️ **Peta Interaktif** – Menampilkan posisi terakhir perangkat + polyline rute
+- 🎨 **UI Modern** – Dibangun dengan React + Tailwind CSS
+- 🔄 **Navigasi Halaman** – Menggunakan React Router DOM
+- ⚡ **Fast Build System** – Menggunakan Vite untuk pengembangan cepat
+
+---
+
+## 🖼️ Tampilan
+
+### 🔹 Realtime Dashboard
+![Dashboard Screenshot](./src/assets/react.svg)
+
+### 🔹 Logo Vite (Placeholder)
+![Preview UI](./dist/vite.svg)
+
+---
+
+## 📦 Teknologi & Library
+
+| Library            | Kegunaan                           |
+|--------------------|------------------------------------|
+| `react`            | Framework utama UI                 |
+| `leaflet`          | Menampilkan peta interaktif        |
+| `react-leaflet`    | Integrasi Leaflet dengan React     |
+| `chart.js`         | Grafik chart sensor                |
+| `react-chartjs-2`  | Wrapper React untuk Chart.js       |
+| `firebase`         | Backend Realtime & Auth            |
+| `react-router-dom` | Navigasi antar halaman             |
+
+---
+
+## ⚙️ Cara Menjalankan
+
+```bash
+# 1. Install dependencies
+pnpm install
+
+# 2. Jalankan server lokal
+pnpm dev
+
+# 3. Build untuk production
+pnpm build
+```
+
+---
+
+## 📝 Struktur Proyek
+
+```
+web/
+├── index.html
+├── src/
+│   ├── App.jsx
+│   ├── firebase.js
+│   └── ...
+├── public/
+├── dist/
+└── package.json
+```
+
+---
+
+## 📄 Lisensi
+
+MIT License
