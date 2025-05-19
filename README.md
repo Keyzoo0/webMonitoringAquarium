@@ -5,6 +5,12 @@
 ![Firebase](https://img.shields.io/badge/Firebase-FireStore-Green)
 ![GeoLocator](https://img.shields.io/badge/LeafLet-OpenSourceGeoLocaatorJavaScript-Red)
 
+### 📸 Tampilan Dashboard
+![Dashboard](./screenshots/dashboard.jpg)
+
+### 🗺️ Tampilan Map View
+![Login Page](./screenshots/loginPage.jpg)
+
 Monitoring Aquarium adalah aplikasi dashboard berbasis web untuk memantau kondisi lingkungan secara real-time seperti suhu air, kejernihan (turbidity), dan kapasitas tangki. Sistem ini terintegrasi dengan Firebase dan menampilkan lokasi perangkat di peta menggunakan Leaflet.
 
 ---
