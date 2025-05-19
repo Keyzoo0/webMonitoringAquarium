@@ -27,9 +27,8 @@ Monitoring Aquarium adalah aplikasi dashboard berbasis web untuk memantau kondis
 
 ## 🖼️ Tampilan
 
-### 🔹 Realtime Dashboard ![Dashboard Screenshot](./src/assets/react.svg)
-
-### 🔹 Logo Vite (Placeholder) ![Preview UI](./dist/vite.svg)
+###  Realtime Dashboard   |  Logo Vite (Placeholder) 
+  ![Dashboard Screenshot](./src/assets/react.svg)    ![Preview UI](./dist/vite.svg)
 
 ---
 
