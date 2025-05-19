@@ -2,6 +2,7 @@
 
 ![Vite + React](https://img.shields.io/badge/Vite-React-blueviolet)
 ![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-orange)
+![Firebase](https://img.shields.io/badge/Firebase-FireStore-Green)
 
 Monitoring Aquarium adalah aplikasi dashboard berbasis web untuk memantau kondisi lingkungan secara real-time seperti suhu air, kejernihan (turbidity), dan kapasitas tangki. Sistem ini terintegrasi dengan Firebase dan menampilkan lokasi perangkat di peta menggunakan Leaflet.
 
